@@ -1,0 +1,445 @@
+.casestudy.main {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  overflow: hidden;
+}
+.casestudy .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 861px;
+  min-height: 861px;
+}
+.casestudy .section1Content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 141px 0px;
+  width: 1440px;
+  height: 861px;
+}
+.casestudy .content_box1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.casestudy .flex_row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  margin: 25px auto 26px;
+  width: 92.64%;
+}
+@media (max-width: 1399px) {
+  .casestudy .flex_row {
+    margin: 25px auto 26px 70px;
+    width: 80%;
+  }
+}
+.casestudy .hero_title {
+  display: flex;
+  align-items: center;
+  min-width: 0px;
+  font: 700 38px/1.5 "Open Sans", Helvetica, Arial, serif;
+  color: #1a25c5;
+}
+.casestudy .flex_row1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 13.5px 0px 7.5px;
+  width: 418px;
+  min-width: 0px;
+}
+.casestudy .medium_title {
+  display: flex;
+  align-items: center;
+  min-width: 0px;
+  font: 400 24px/1.5 "Open Sans", Helvetica, Arial, serif;
+  color: #1a25c5;
+}
+.casestudy .medium_title1 {
+  display: flex;
+  align-items: center;
+  min-width: 0px;
+  font: 400 24px/1.5 "Open Sans", Helvetica, Arial, serif;
+  color: black;
+}
+.casestudy .image {
+  width: 32px;
+  min-width: 0px;
+  height: 32px;
+}
+.casestudy .flex_col {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 4.17% 105px auto;
+  width: 663px;
+}
+@media (max-width: 1399px) {
+  .casestudy .flex_col {
+    margin: 0px 4.17% 105px 600px;
+  }
+}
+.casestudy .hero_title1 {
+  font: 700 56px/1.08 "Archivo", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 1399px) {
+  .casestudy .hero_title1 {
+    align-items: flex-start;
+    font-size: 48px;
+  }
+}
+.casestudy .title {
+  margin: 26px 0px 0px;
+  font: 400 28px/1.35 "Open Sans", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 1399px) {
+  .casestudy .title {
+    align-items: flex-start;
+    font-size: 24px;
+  }
+}
+.casestudy .title1_box {
+  margin: 16px 0px 0px;
+}
+@media (max-width: 1399px) {
+  .casestudy .title1_box {
+    align-items: flex-start;
+  }
+}
+.casestudy .title1 {
+  font: 700 28px/1.35 "Open Sans", Helvetica, Arial, serif;
+  color: white;
+}
+@media (max-width: 1399px) {
+  .casestudy .title1 {
+    font-size: 24px;
+  }
+}
+.casestudy .title1_span0 {
+  font: 700 1em/1.35 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .title1_span1 {
+  font: 300 1em/1.35 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .title1_box1 {
+  margin: 8px 0px 0px;
+}
+@media (max-width: 1399px) {
+  .casestudy .title1_box1 {
+    align-items: flex-start;
+  }
+}
+.casestudy .content_box {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0px 0px 3px;
+  width: 166px;
+  background-color: white;
+  border-radius: 26px 26px 26px 26px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.047);
+}
+.casestudy .highlight {
+  display: flex;
+  align-items: center;
+  margin: 14px 24px;
+  font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #191919;
+}
+.casestudy .image1 {
+  position: relative;
+  margin: 317px 0px 200px 36px;
+  width: 612px;
+}
+@media (max-width: 1399px) {
+  .casestudy .image1 {
+    width: 550px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+.casestudy .section2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.casestudy .content_box2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 2139px;
+  background-color: white;
+}
+.casestudy .big_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 71px 41.25% 0px auto;
+  width: 227px;
+  font: 700 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+  color: #1a25c5;
+  text-align: center;
+}
+@media (max-width: 1399px) {
+  .casestudy .big_title {
+    margin: 71px 41.25% 0px 550px;
+  }
+}
+.casestudy .subtitle_box {
+  display: flex;
+  align-items: center;
+  margin: 131px auto 0px;
+  width: 86.25%;
+}
+@media (max-width: 1399px) {
+  .casestudy .subtitle_box {
+    margin: 80px auto 0px 70px;
+    width: 80%;
+  }
+}
+.casestudy .subtitle {
+  font: 700 22px/1.5 "Open Sans", Helvetica, Arial, serif;
+  color: black;
+}
+.casestudy .subtitle_span0 {
+  font: 700 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span1 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span2 {
+  font: 700 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span3 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span4 {
+  font: 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span5 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span6 {
+  font: 700 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span7 {
+  font: 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span8 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span9 {
+  font: 700 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span10 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span11 {
+  font: 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle_span12 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .big_title1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 184px auto 0px;
+  font: 700 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+  color: #1a25c5;
+  text-align: center;
+}
+@media (max-width: 1399px) {
+  .casestudy .big_title1 {
+    margin: 100px auto 0px 220px;
+  }
+}
+.casestudy .subtitle1_box {
+  display: flex;
+  align-items: center;
+  margin: 147.5px auto 0px;
+  width: 86.25%;
+}
+@media (max-width: 1399px) {
+  .casestudy .subtitle1_box {
+    margin: 147.5px auto 0px 70px;
+    width: 80%;
+  }
+}
+.casestudy .subtitle1 {
+  font: 600 22px/1.5 "Open Sans", Helvetica, Arial, serif;
+  color: black;
+}
+.casestudy .subtitle1_span0 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span1 {
+  font: 700 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span2 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span3 {
+  font: 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span4 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span5 {
+  font: 700 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span6 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span7 {
+  font: 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span8 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span9 {
+  font: 700 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span10 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span11 {
+  font: 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .subtitle1_span12 {
+  font: 600 1em/1.5 "Open Sans", Helvetica, Arial, serif;
+}
+.casestudy .big_title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200.5px auto 0px;
+  font: 700 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+  color: #1a25c5;
+  text-align: center;
+}
+@media (max-width: 1399px) {
+  .casestudy .big_title2 {
+    margin: 100px auto 0px 450px;
+  }
+}
+.casestudy .subtitle11 {
+  display: flex;
+  align-items: center;
+  margin: 81.5px auto 87.5px;
+  width: 86.25%;
+  font: 600 22px/1.5 "Open Sans", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 1399px) {
+  .casestudy .subtitle11 {
+    margin: 81.5px auto 87.5px 70px;
+    width: 80%;
+  }
+}
+.casestudy .flex_col1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 49px 0px;
+  margin: 2272px auto 133px;
+  width: 841px;
+}
+.casestudy .big_title11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60.76%;
+  font: 700 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+.casestudy .medium_title2 {
+  display: flex;
+  align-items: center;
+  font: 600 24px/1.5 "Open Sans", Helvetica, Arial, serif;
+  color: white;
+}
+.casestudy .section3 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.casestudy .flex_col2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 172px 0px;
+  margin: 93.5px auto 98px;
+  width: 86.25%;
+}
+.casestudy .flex_col3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 85px 0px;
+  width: 100%;
+}
+.casestudy .big_title21 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 700 36px/1.36 "Open Sans", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+}
+.casestudy .subtitle12 {
+  display: flex;
+  align-items: center;
+  font: 600 22px/1.5 "Open Sans", Helvetica, Arial, serif;
+  color: black;
+}
+.casestudy .flex_col4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 48.39%;
+}
+.casestudy .medium_title3 {
+  display: flex;
+  font: 700 24px/1.09 "Archivo", Helvetica, Arial, serif;
+  color: #1a25c5;
+}
+@media (max-width: 1399px) {
+  .casestudy .medium_title3 {
+    justify-content: center;
+    align-items: flex-start;
+    width: 700px;
+    text-align: center;
+    font-size: 24px;
+  }
+}
+.casestudy .flex_row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 13px 0px 0px;
+  width: 27.79%;
+}
+.casestudy .image2 {
+  width: 33px;
+  min-width: 0px;
+  height: 33px;
+}
+.casestudy .highlight1 {
+  margin: 14px 0px 0px;
+  font: 300 18px/1.09 "Archivo", Helvetica, Arial, serif;
+  color: #1a25c5;
+}
